@@ -1,0 +1,258 @@
+body {
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #232323;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: url(media/img14.webp);
+    overflow: hidden;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg1,
+.bg2 {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.bg1:before {
+    background-color: #fff;
+    transform: skewy(8deg);
+    transform-origin: top right;
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bg2:before {
+    background-color: #fff;
+    transform: skewy(8deg);
+    transform-origin: top left;
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.h-space {
+    height: 49vh;
+    width: 100%;
+}
+
+.nav {
+    background-color: #232323;
+    color: #fff;
+    z-index: 99;
+    position: relative;
+    width: 40%;
+    float: right;
+    margin-right: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 40px;
+}
+
+.nav hr {
+    height: 20px;
+    margin: 0px auto;
+}
+
+.logo {
+    z-index: 99;
+    position: relative;
+    margin: 100px 0px;
+    text-align: center;
+    width: 30%;
+    text-shadow: 2px 2px 2px lightgray;
+}
+
+.logo h1, .section h1, footer h1 {
+    text-shadow: 2px 2px 2px lightgray;
+    margin: 0px;
+    font-size: 38px;
+    letter-spacing: 12px;
+}
+
+.logo p, .section p, footer p {
+    margin: 4px 0px;
+    padding-right: 6px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.home01{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.section{
+    display: flex;
+    align-items:flex-end;
+    align-self: center;
+    margin: 60px auto;
+}
+
+.col{
+    width: 33.33%;
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+.col p{
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.img-row{
+    display: flex;
+    overflow: hidden;
+}
+
+.img1{
+    width: 70%;
+    height: 370px;
+    margin: 10px;
+}
+.img2{
+    width: 30%;
+    height: 370px;
+    margin: 10px;
+}
+.img3{
+    width: 100%;
+    height: 370px;
+    margin: 10px;
+}
+
+.home02{
+    text-align: center;
+    width: 100%;
+    background-color: #eaeaea;
+}
+.home02-content{
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+
+.bg3,
+.bg4 {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.bg3:before {
+    background-color: #fff;
+    transform: skewy(-8deg);
+    transform-origin: top left;
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bg4:before {
+    background-color: #fff;
+    transform: skewy(-8deg);
+    transform-origin: top right;
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.title{
+    font-size: 28px;
+    display: flex;
+}
+
+.title hr{
+    border: 1px solid #232323;
+    width: 20%;
+    height: 0;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    margin: 40px auto;
+}
+.card{
+    width: 33.33%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card hr{
+    width: 30%;
+    margin: auto;
+    border: 1px solid #232323;
+}
+
+.card img{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.card p{
+    font-style: italic;
+    font-size: 12px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+button{
+    padding: 12px 16px;
+    background-color: #232323;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 40px auto;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #eaeaea;
+    width: 100%;
+    text-align: center;
+}
+
+footer .footer {
+   float: right;
+   margin: 100px 40px;
+}
+footer a{
+    color: #232323;
+}
